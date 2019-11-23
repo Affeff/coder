@@ -1,0 +1,58 @@
+html {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, black, black 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+h1,p {
+ display:flex;
+justify-content: center;
+}
+
+a:link{ 
+	color:white;
+	text-decoration: none;
+}
+a:visited { 
+	color:white;
+	text-decoration: none;
+}
+a:hover {
+    color:red;
+    text-decoration: none;
+ }
+ a:active { color:white; 
+ text-decoration: none;}
+}
+
+.bigger {
+	display: flex;
+    position:relative;
+    width:  500px;
+    height: 500px;
+    box-sizing: 100px;
+  
+}
+
+
+
+
+.centred_radios{
+ text-align: center;
+ }
+
+.centred_link{
+	display: flex;
+	justify-content:center;
+}
+.video_container{
+	display: flex;
+	justify-content: center;
+	width: 75px
+	height 75px
+
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+}
